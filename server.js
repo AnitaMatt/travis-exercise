@@ -1,4 +1,4 @@
-const favoriteFood = process.env.FAVORITE_FOOD;
+const favoriteName = process.env.NAME;
 
 
 function sleep(ms) {
@@ -7,7 +7,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log(`My favorite food is ${favoriteFood} - Microservices rock`);
+    console.log(`My favorite name is ${favoriteName} - Microservices rock`);
     await sleep(5000);
   }
 }
